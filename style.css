@@ -1,7 +1,12 @@
 body {
-  background: black;
+  background-color: #737373;
+  color: #b0b0b0;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
-  color: white;
+  color: #b0b0b0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
