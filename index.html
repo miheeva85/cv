@@ -8,51 +8,96 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <div class="box">
+    Екатерина Михеева Портфолио Стоимость FAQ  Связаться  
+    </div></header>
+    
     <div class="container">
       <div class="info">
-        <img
-          src="source/scale_1200.webp"
+        <img src="source/scale_1200.webp"
           alt="Здесь моя фотография"
-          class="avatar"
-        />
-        <h1>Екатерина Михеева Frontend-разработчик</h1>
-        <div class="about">
-          <p>
-            Меня зовут <strong>Екатерина Михеева</strong>, я frontend -
-            разработчик. Разрабатываю сайты
-          </p>
-          <p>
-            Люблю путешествовать, заниматься спортом, рисовать, фотографировать
-          </p>
-                </div>
+          class="avatar"/>
+        <div class="info-text">
+          <h1>Екатерина Михеева Frontend-разработчик</h1>
+            <p>
+              Меня зовут <strong>Екатерина Михеева</strong>, я frontend -
+              разработчик. Разрабатываю сайты.Люблю путешествовать, заниматься спортом, рисовать, фотографировать
+            </p>
+          </div>
+    </div>
 <div class="card bg-orange">
   <div class="social">
     <h2>Мои социальные сети:</h2>
-    <a href="https://instagram.com/miheeva.js" target="_blank">Instagram</a> | <a href="blog.html">Блог</a>
+    <a href="https://instagram.com/miheeva.js" target="_blank">Instagram</a> | <a href="/">Блог</a>
   </div>
 
 </div>
-<div class="card bg-light-black">
-  <h2>Мои хобби:</h2>
-  <ol type="1">
-    <li>Фотография</li>
-    <li>Рисование</li>
-    <li>Спорт: бег, велосипед</li>
-    <li>Кастом одежды</li>
-    <li>Путешествия</li>
-  </ol>
-</div>
 
-<div class="card bg-black">
+
+<div class="card bg-light-black">
   <h2>Навыки</h2>
+  <ul class="link-list">
+    <li>Верстка: HTML5, CSS, методология БЭМ</li>
+    <li>Английский: чтение технической документации</li>
+    <li>JavaScript</li>
+    <li>GIT</li>
+    <li>Node.js</li>
+    <li>ООП</li>
+    <li>CMS:  TILDA, PLATFORMA LP,  WORDPRESS, DRUPAL, TAPLINK.</li>
+  </ul>
+</div>
+<div class="card">
+  <h2>Портфолио</h2>
+
+  <table class="table">
+    <tbody>
+          <tr>
+            <td>Сайт, ссылка</td>
+            <td>Система, CMS, FrameWork</td>
+            <td>Год</td>
+          </tr>
+          <tr>
+            <td><a href="https://tetya-katya.ru/">Сайт педагога</a></td>
+            <td>Wordpress</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td><a href="https://katerina-miheeva.ru/">Сайт художника</a></td>
+            <td>Wordpress</td>
+            <td>2022</td>
+          </tr>
+          <tr>
+            <td><a href="https://ekaterina-sitnikova.ru/">Сайт-визитка маркетолога</a></td>
+            <td>Wordpress</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td><a href="https://kids.ekaterina-sitnikova.ru/">Сайт детского фотографа</a></td>
+            <td>Wordpress</td>
+            <td>2021</td>
+          </tr>
+          <tr>
+            <td><a href="http://photo.ekaterina-sitnikova.ru/">Сайт женского фотографа</a></td>
+            <td>Wordpress</td>
+            <td>2020</td>
+          </tr>
+        </tbody>
+      </table>
+          <ul>
+
+      <li></li> 2020 Сайт — продажник для нутрициолога — TILDA ( функционирует при запуске продаж) ( PDF- формат сайта) </li>
+      <li>   2020 Создание Хелфбук 1.0 TILDA  (функционирует при запуске продаж) (PDF- формат сайта) (Скринкаст)</li>
+      <li>   2020 toa-company.com TILDA Интернет-магазин японских товаров (не функционирует на данный момент)  (Посмотреть картинку)</li>
+      <li></li> 2019 review.zer.ru Мобильный лендинг для отзывов в центре Красоты и косметологии </li>
+      <li> 2012 promalp.shaligin.ru — Drupal. Сайт для Красноярской фирмы, занимающейся промышленным альпинизмом (не функционирует на данный момент)</li>
+      <li>2010 Нижнеудинская-тик.рф Drupal. Сайт избирательной компании города Нижнеудинска. (не функционирует на данный момент)</li>
+      <li>2009 otboga.ru Drupal. Персональный сайт Евгения Прахта, посвященный рисункам его дочери (не функционирует на данный момент)</li>
+      <li>2008 rukotworchestvo.ru Drupal. Блог о рукоделии (не функционирует на данный момент)</li>
+  </ul>
 </div>
    <div class="card bg-black"> <h2>Опыт работы</h2>
-    <table>
-      <thead>
-        <th>Компания</th>
-        <th>Должность</th>
-        <th>Год</th>
-      </thead>
+    <table class="table">
       <tbody>
         <tr>
           <td>Название компании</td>
@@ -66,20 +111,38 @@
         </tr>
       </tbody>
     </table></div>
-<h2>Связаться со мной</h2>
-      <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите ваше имя" />
-        <br />
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Введите ваш email" />
-        <br />
-        <label for="text">Ваше сообщение:</label> <br />
-        <textarea name="" id="text" cols="30" rows="8"></textarea>
-        <br />
-        <input type="submit" value="Связаться" />
-      </form>
+
+    <div class="card bg-light-black">
+      <h2>Мои хобби:</h2>
+      <ol type="1">
+        <li>Фотография</li>
+        <li>Рисование</li>
+        <li>Спорт: бег, велосипед</li>
+        <li>Кастом одежды</li>
+        <li>Путешествия</li>
+      </ol>
     </div>
+<div class="contact"><h2>Связаться со мной</h2>
+  <form action="/">
+    <div class="row">
+    <div class="form-group"><label for="name">Ваше имя:</label>
+      <input type="text" id="name" placeholder="Введите ваше имя" />
+    </div>
+
+    <div class="form-group"><label for="email">Ваш email:</label>
+      <input type="email" id="email" placeholder="Введите ваш email" />
+    </div>
+  </div>
+    <div class="form-group"><label for="text">Ваше сообщение:</label> <br />
+    <textarea name="" id="text" cols="30" rows="8"></textarea>
+    </div>
+
+    <input class="btn" type="submit" value="Связаться" />
+ 
+  </form>
+</div></div>
+
+
     <div style="margin-bottom: 500px ;"></div>
   </body>
 </html>
